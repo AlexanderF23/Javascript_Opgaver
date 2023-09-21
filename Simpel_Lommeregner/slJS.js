@@ -3,7 +3,8 @@
 
 
 
-function seven() {
+function seven()
+{
     document.getElementById("resultDisplay").value += "7";
 
     console.log("7");
@@ -11,14 +12,16 @@ function seven() {
 
 }
 
-function eight() {
+function eight()
+{
 
     document.getElementById("resultDisplay").value += "8";
     console.log("8");
 
 }
 
-function nine() {
+function nine()
+{
 
     document.getElementById("resultDisplay").value += "9";
     console.log("9");
@@ -26,7 +29,8 @@ function nine() {
 
 }
 
-function divide() {
+function divide()
+{
 
 
     document.getElementById("resultDisplay").value += "/";
@@ -34,14 +38,16 @@ function divide() {
 
 }
 
-function four() {
+function four()
+{
 
     document.getElementById("resultDisplay").value += "4";
     console.log("4");
 
 }
 
-function five() {
+function five()
+{
 
     document.getElementById("resultDisplay").value += "5";
     console.log("5");
@@ -49,7 +55,8 @@ function five() {
 }
 
 
-function six() {
+function six()
+{
 
     document.getElementById("resultDisplay").value += "6";
     console.log("6");
@@ -57,7 +64,8 @@ function six() {
 
 }
 
-function times() {
+function times()
+{
 
     document.getElementById("resultDisplay").value += "*";
     console.log("*");
@@ -67,14 +75,16 @@ function times() {
 
 }
 
-function one() {
+function one()
+{
 
     document.getElementById("resultDisplay").value += "1";
     console.log("1");
 
 }
 
-function two() {
+function two()
+{
 
     document.getElementById("resultDisplay").value += "2";
     console.log("2");
@@ -82,7 +92,8 @@ function two() {
 
 }
 
-function three() {
+function three()
+{
 
     document.getElementById("resultDisplay").value += "3";
     console.log("3");
@@ -90,7 +101,8 @@ function three() {
 
 }
 
-function minus() {
+function minus()
+{
 
 
 
@@ -100,7 +112,8 @@ function minus() {
 }
 
 //Må ikke hedde clear åbenbart
-function clear2() {
+function clear2()
+{
 
 
     document.getElementById("resultDisplay").value = "";
@@ -109,14 +122,16 @@ function clear2() {
 
 }
 
-function zero() {
+function zero()
+{
 
     document.getElementById("resultDisplay").value += "0";
     console.log("0");
 
 }
 
-function erase() {
+function erase()
+{
 
     document.getElementById("resultDisplay").value = document.getElementById("resultDisplay").value.slice(0, -1);
     console.log("erase");
@@ -124,7 +139,8 @@ function erase() {
 
 }
 
-function plus() {
+function plus()
+{
 
 
 
@@ -134,7 +150,8 @@ function plus() {
 }
 
 
-function calc() {
+function calc()
+{
 
     document.getElementById("resultDisplay").value = eval(document.getElementById("resultDisplay").value);
 
