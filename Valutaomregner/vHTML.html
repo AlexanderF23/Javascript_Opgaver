@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Valutaomregner</title>
+    <link rel="stylesheet" href="vSS.css">
+    <script type="text/javascript" src="vJS.js"></script>
+</head>
+<body>
+
+<div class="vContainer" id ="idvContainer">
+    <div class="Valutaomregner">
+
+
+        <div id = "valutaDropdown">
+
+        <label for="valuta">Valuta 1:</label>
+        <select name="valuta" id="valuta" onchange = "calcValuta();">
+            <option value="USD">$Dollar$</option>
+            <option value="EUR">€Euro€</option>
+            <option value="DKK">Kroner</option>
+        </select>
+
+
+
+        <label for="valuta2">Valuta 2:</label>
+        <select name="valuta2" id="valuta2" onchange = "calcValuta();">
+            <option value="USD">$Dollar$</option>
+            <option value="EUR">€Euro€</option>
+            <option value="DKK">Kroner</option>
+        </select>
+
+        </div>
+
+        <div>
+            <input id = "userInput" type = "text" name = "valuta1">
+            <input id = "userOutput" type = "text" name = "valutaResult">
+        </div>
+
+
+
+
+    </div>
+</div>
+
+</body>
+</html>
